@@ -1,0 +1,105 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+*:hover{
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+section{
+  float:left;
+  width:100%;
+  background: #fff;  /* fallback for old browsers */
+  padding:30px 0;
+}
+h1{
+  float:left; 
+  width:100%; 
+  color:#ff013c; 
+  margin-bottom:30px; 
+  font-size: 14px;
+}
+h1 span{ 
+  display:block; font-size:45px; 
+  text-transform:none; 
+  margin-bottom:10px; 
+  margin-top:30px; 
+  font-weight:700}
+
+/*Profile card 2*/
+.profile-card-2 .card-img-block{
+  float:left;
+  width:100%;
+  height:170px;
+  overflow:hidden;
+}
+.profile-card-2 .card-body{
+  position:relative;
+}
+.profile-card-2 .profile {
+border-radius: 50%;
+position: absolute;
+top: -95px;
+left: 50%;
+max-width: 140px;
+border: 3px solid rgba(255, 255, 255, 1);
+-webkit-transform: translate(-50%, 0%);
+transform: translate(-50%, 0%);
+}
+.profile-card-2 h5{
+  font-weight:600;
+  color:#39b54a;
+  margin-bottom: -15px;
+  text-align: center;
+}
+.profile-card-2 .card-text{
+  font-weight:600;
+  font-size:20px;
+  text-align: center;
+}
+.profile-card-2 .card-text2{
+  font-weight:400px;
+  font-size:20px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.profile-card-2 .card-text3{
+  font-weight:300;
+  font-size:20px;
+  text-align: center;
+  color: #ff013c;
+}
+.profile-card-2{
+  margin-bottom: 20px;
+  /* box-shadow: 10px 10px 10px  #888888; */
+}
+
+
+button {
+  text-align: center;
+  padding: 10px 54px;       
+  background-color: #39b54a;
+  border: none;
+  
+}
+.button button a{
+  text-decoration: none;
+  
+}
+.button{
+  text-align: center;
+  
+}
+.button button a p2{
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.card{
+  height: 450px;
+}
+.card-title{
+  height: 50px;
+}
